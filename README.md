@@ -1,1 +1,1 @@
-# fishconfig
+# fish-config
