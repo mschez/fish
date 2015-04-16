@@ -1,4 +1,4 @@
-# fish: Config
+# Fish: Config
 This project add some fish features and configurations
 
 ### Usage
