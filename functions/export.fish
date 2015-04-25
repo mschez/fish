@@ -16,8 +16,8 @@ set -x  RUBY_GC_HEAP_GROWTH_FACTOR 1.25
 set -x  RUBY_GC_HEAP_GROWTH_MAX_SLOTS 300000
 
 # android sdk
-set -x PATH "/usr/local/android-sdk/tools" $PATH
-set -x PATH "/usr/local/android-sdk/platform-tools" $PATH
+set -x PATH "/Users/$USER/Library/Android/sdk/tools/" $PATH
+set -x PATH "/Users/$USER/Library/Android/sdk/platform-tools/" $PATH
 
 # nodejs
 set -x PATH "/usr/local/share/npm/bin" $PATH
