@@ -68,13 +68,21 @@ alias top="top -o cpu"
 alias ps="command ps -SAcr -o 'uid,pid,ppid,time,rss,command'"
 
 # Sublime Text
-alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+# alias sublime="/Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl"
+
+function sublime
+  /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl $argv
+end
 
 # Google Closure compiler shortcuts
 #alias jcc='java -jar ~/tools/closure_compiler/compiler.jar'
 
 # Shortcut to Google Chrome
-alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+# alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+
+function chrome
+  /Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome $argv
+end
 
 # start local wiki
 #alias wiki='python /Volumes/Document/Dropbox/Moin_wiki/wikiserver.py'
