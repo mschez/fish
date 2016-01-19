@@ -4,6 +4,7 @@ alias conf="open ~/.config/fish -a /Applications/Sublime\ Text.app/"
 alias gobra="cd ~/Dev/brahma"
 alias gobab="cd ~/Dev/babyphone/"
 alias gochef="cd ~/Dev/chefcito/"
+alias gopik="cd ~/Dev/piknic/"
 
 set -x PATH "$HOME/android-sdk-macosx/tools" "$HOME/android-sdk-macosx/platform-tools" $PATH
 

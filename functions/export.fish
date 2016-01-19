@@ -18,7 +18,7 @@ set -x  RUBY_GC_HEAP_GROWTH_MAX_SLOTS 300000
 # nodejs
 set -x PATH "/usr/local/share/npm/bin" $PATH
 set -x PATH "./node_modules/.bin" $PATH
-set -x NODE_PATH "/usr/local/lib/node_modules"
+set -x NODE_PATH "/usr/local/lib/node_modules:./src"
 set -x NODE_ENV "local"
 
 # editor
