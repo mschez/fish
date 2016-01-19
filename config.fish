@@ -9,3 +9,4 @@
 if test -f "$HOME/.config/fish/users/$USER.fish"
 	. "$HOME/.config/fish/users/$USER.fish"
 end
+rvm default

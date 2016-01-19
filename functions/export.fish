@@ -15,15 +15,11 @@ set -x  RUBY_GC_HEAP_FREE_SLOTS 600000
 set -x  RUBY_GC_HEAP_GROWTH_FACTOR 1.25
 set -x  RUBY_GC_HEAP_GROWTH_MAX_SLOTS 300000
 
-# android sdk
-set -x PATH "/Users/$USER/Library/Android/sdk/tools/" $PATH
-set -x PATH "/Users/$USER/Library/Android/sdk/platform-tools/" $PATH
-
 # nodejs
 set -x PATH "/usr/local/share/npm/bin" $PATH
 set -x PATH "./node_modules/.bin" $PATH
 set -x NODE_PATH "/usr/local/lib/node_modules"
-set -x NODE_ENV "development"
+set -x NODE_ENV "local"
 
 # editor
 #set -x EDITOR "mvim"
